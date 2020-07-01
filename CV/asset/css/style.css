@@ -1,0 +1,10 @@
+/*CSS files and styling rules to your content */
+body {
+    margin:0em;
+}
+
+.cover{
+    height: 300;
+    background: red;
+
+}
