@@ -1,98 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="asset/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <title>Entrega Proyecto Final 2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-aweosome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <title>BIM Structural Draftsman</title>
 </head>
-
 <body>
-    <!--Inicio container-->
-    <div>
-        <!--StartHeader-->
-        <header id="header">
-            <div>
-                <img src="asset/img/Logo_WPS.png" alt="" class="person-img">
-            </div>
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="../root/index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="asset/pages/services.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="asset/pages/projects.html">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="asset/pages/contact.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--EndHeader-->
-        <!--StartContainer-->
-        <section>
-            <div class="section-3" id="section-3">
-                <div class="project">
-                    <div class="project-text">
-                        <h2 class="project-name">Hospitales</h2>
-                        <h4 class="project-technologies">Revit / Tekla Structures</h4>
+    <div class="container">
+        <!--Home Header-->
+        <section class="section-1 center" id="home">
+            <h1 class="section-1__heading">
+                Dibujante Proyectista   
+            </h1>
+            <img class="section-1__person-img" src="img/andresGallo.png" alt="Andrés Gallo" >
+            <h3 class="section-1__person__name" >Andrés Gallo Parra</h3>
+            <a href="https://www.notion.so/BIM-1dfb9687cdfd46ee8d27728f2f1836c4" target="_blank" class="section-1_btn">Mi tablero sobre BIM en Notion.io</a>
+        </section>
+        <!--Navbar-->
+        <nav class="navbar center">
+            <a href="#home"                class="navbar__link">Inicio</a>
+            <a href="/page/services.html"  class="navbar__link">Servicios</a>
+            <a href="/page/aboutme.html"   class="navbar__link">Quienes Somos</a>
+            <a href="/page/projects.html"  class="navbar__link">Proyectos</a>
+            <a href="/page/contact.html" id="contact" class="navbar__link">Contactos</a>
+        </nav>
+        <!--Navbar-->
+        <!--End Header-->
+        <!--Home BIM-->
+        <section class="infobim center">
+            <h1 class="infobim__heading">Información Sobre BIM - Revit - Dynamo</h1>
+            <div class="infobim__project__wrapper center">
+                <div class="infobim__project">
+                    <div class="infobim__project__text">
+                        <h2 class="infobim__project__name">Revit rooms to Rhino using Rhino Inside!</h2>
+                        <h4 class="infobim__project__technologies">Revit and Rhino</h4>
                     </div>
-                    <img src="asset/img/project-1.JPG" class="project-img" />
-                </div>
-                <div class="project">
-                    <div class="project-text">
-                        <h2 class="project-name">Mineria</h2>
-                        <h4 class="project-technologies">Tekla Structures</h4>
-                    </div>
-                    <img src="asset/img/project-2.jpeg" class="project-img" />
-                </div>
-                <div class="project">
-                    <div class="project-text">
-                        <h2 class="project-name">Quitmetal</h2>
-                        <h4 class="project-technologies">Tekla Structures</h4>
-                    </div>
-                    <img src="asset/img/project-3.png" class="project-img" />
-                </div>
-                <div class="project">
-                    <div class="project-text">
-                        <h2 class="project-name">aeropuertos</h2>
-                        <h4 class="project-technologies">Revit / Naviswork</h4>
-                    </div>
-                    <img src="asset/img/project-4.PNG" class="project-img" />
+                    <iframe class="infobim_project__link" src="https://www.youtube.com/watch?v=PfCn7OrY_-A"></iframe>
                 </div>
             </div>
         </section>
-        <!--EndContainer-->
-        <!--Starfooter-->
+        <!--End BIM-->
+
+        <!--Home Footer-->
         <footer class="section-5 center">
-            <div class="social-media">
-                <a href="https://github.com/Atelijudesign" class="social-media-link" target="_blank">
+            <div class="section-5__rrss">
+                <a href="https://github.com/Atelijudesign" target="_blank" class="section-5__rrss_link">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a href="https://www.youtube.com/channel/UCj_cOP9pqWxMeY2R64U59Xw" class="social-media-link"
-                    target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.instagram.com/atelijudesign/" class="social-media-link" target="_blank">
+                <a href="#" class="section-5__rrss_link" target="_blank">
                     <i class="fab fa-instagram-square"></i>
                 </a>
+                <a href="https://www.youtube.com/channel/UCj_cOP9pqWxMeY2R64U59Xw" class="section-5__rrss_link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>                          
             </div>
-
-            <p class="copyright">
-                Copyright &copy; Atelijudesign. All Rights Reserved
+            <p class="section-5__copyright">
+                Copyright &copy; Andrés Gallo. All Rights Reserved
             </p>
         </footer>
-        <!--Endfooter-->
+        <!--End Footer-->
     </div>
-    <!--Fin container-->
+    <!--Script JavaSacript-->
+    <script src="js/script.js"></script>
+    <!--Script JavaSacript-->
 </body>
-
 </html>
